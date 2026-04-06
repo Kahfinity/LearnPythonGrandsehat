@@ -84,7 +84,7 @@ print(f"Jumlah  : {jumlah}")
 print(f"Total   : Rp {total:,.2f}")
 ```
 
-### 🔍 Penjelasan Fitur:
+### Penjelasan Fitur:
 - `float()` & `int()` digunakan karena `input()` selalu mengembalikan string.
 - `f-string` (`f"..."`) memungkinkan penyisipan variabel langsung ke dalam string.
 - `:,.2f` → format angka: 
