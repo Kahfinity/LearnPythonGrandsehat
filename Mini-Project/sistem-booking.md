@@ -21,7 +21,7 @@ from datetime import datetime
 
 ---
 
-### 2. Fungsi Validasi Tanggal & Jam (Penjaga Pintu)
+### 2. Fungsi Validasi Tanggal & Jam
 ```python
 def validasi_tanggal(input_tanggal):
     try:
