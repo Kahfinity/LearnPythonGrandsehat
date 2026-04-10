@@ -85,11 +85,10 @@ while percobaan < maksimal_percobaan and not login_berhasil:
 if not login_berhasil:
     print("\nAkses Ditolak. Anda telah mencapai batas percobaan.")
 else:
-    # For Loop: Iterasi menu utama
-    menu = ["Profil", "Pengaturan", "Keluar"]
-    print("\nMENU UTAMA:")
-    for i, item in enumerate(menu, start=1):
-        print(f"{i}. {item}")
+    print("\n=== MENU UTAMA ===")
+    print("1. Profil")
+    print("2. Pengaturan")
+    print("3. Keluar")
 ```
 **Apa yang Dipelajari?**
 - `while` untuk validasi berkelanjutan + flag boolean

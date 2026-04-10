@@ -20,8 +20,6 @@ while percobaan < maksimal_percobaan and not login_berhasil:
 if not login_berhasil:
     print("\nAkses Ditolak. Anda telah mencapai batas percobaan.")
 else:
-    # For Loop: Iterasi menu utama
-    menu = ["Profil", "Pengaturan", "Keluar"]
     print("\n=== MENU UTAMA ===")
     print("1. Profil")
     print("2. Pengaturan")
