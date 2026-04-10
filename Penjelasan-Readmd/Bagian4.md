@@ -19,26 +19,6 @@ Python menyediakan modul bawaan `random` untuk menghasilkan nilai acak (*pseudo-
 | `shuffle(list)` | **Mengacak urutan list secara in-place** | `shuffle(lst)` | `lst` berubah |
 | `sample(pop,k)` | Ambil `k` elemen unik secara acak | `sample([1,2,3,4], 2)` | `[3, 1]` |
 
-### Catatan Penting
-```python
-import random
-
-# shuffle() & sort() mengembalikan None (in-place operation)
-lst = [1, 2, 3]
-result = random.shuffle(lst)
-print(result)  # None! List lst yang berubah, bukan result
-
-# random adalah pseudo-random → JANGAN untuk keamanan
-# modul `secrets` untuk token, password, atau data sensitif
-import secrets
-token = secrets.token_hex(16)
-```
-
-
-> - `random` → cocok untuk game, simulasi, testing  
-> - `secrets` → wajib untuk token auth, password reset, API keys  
-> - Jangan pernah gunakan `random` untuk data sensitif!
-
 ---
 
 ## 2. Python Lists: Konsep & Operasi Dasar
