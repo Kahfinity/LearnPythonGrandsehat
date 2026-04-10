@@ -19,7 +19,7 @@ Python menyediakan modul bawaan `random` untuk menghasilkan nilai acak (*pseudo-
 | `shuffle(list)` | **Mengacak urutan list secara in-place** | `shuffle(lst)` | `lst` berubah |
 | `sample(pop,k)` | Ambil `k` elemen unik secara acak | `sample([1,2,3,4], 2)` | `[3, 1]` |
 
-### ⚠️ Catatan Penting
+### Catatan Penting
 ```python
 import random
 
