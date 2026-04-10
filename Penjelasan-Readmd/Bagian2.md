@@ -27,9 +27,9 @@ Python adalah bahasa *dynamically typed*. Anda tidak perlu mendeklarasikan tipe,
 ### Immutability (Tidak Bisa Diubah)
 ```python
 teks = "Python"
-# teks[0] = "J"  ❌ TypeError: 'str' object does not support item assignment
+# teks[0] = "J"  TypeError: 'str' object does not support item assignment
 
-# ✅ Solusi: Buat string baru
+# Solusi: Buat string baru
 teks = "J" + teks[1:]  # "Jython"
 ```
 

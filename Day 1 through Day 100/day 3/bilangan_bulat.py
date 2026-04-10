@@ -1,8 +1,8 @@
 angka = int(input("Masukkan bilangan: "))
 
-if angka > 0:
-    print("Positif")
-elif angka < 0:
-    print("Negatif")
+if angka % 2 == 0:
+    print("Genap")
+elif angka % 2 == 1:
+    print("Ganjil")
 else:
     print("Nol")
